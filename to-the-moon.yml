@@ -1,0 +1,13 @@
+#cloud-config
+
+# What will we launch today?
+write_files:
+- owner: root:root
+  path: /usr/local/bin/launch.sh
+  permissions: 0o755
+  encoding: gzip+base64
+  content: |  
+    H4sICD9CTGUAA2JsYXN0b2ZmLnR4dABtkLEKAjEMhvc+xV8LXgtqnI4TrqOu9wJHi7oogouOeXjT
+    6wUV7VC+709CSp2l0/VOj4s5H5/oezT74dAY1GMVWCHNQBgrUc65Ike5Yu3kj6lvXq0H5cHnEDRv
+    3vn/WWLnrHNclpEsizZGLq8gaagliDJLkGQwYQSzuNS9eJBqcVF1CaYt3iekEMyEHZYdVFrcsKgi
+    tkM7c+lThN8qofv5sI2RDzUvHhQxnmcBAAA=
